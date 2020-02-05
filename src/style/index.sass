@@ -1,0 +1,20 @@
+/* Define standard variables and values for website */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap')
+
+$bgColor: white
+$fontSize: 18px
+$textColor: black
+$bordercolor: linear-gradient(180deg, #E1CC8D 0%, #847858 100%)
+/* Use the variables */
+body
+  background-color: $bgColor !important
+  font-size: $fontSize
+  font-family: Roboto,serif !important
+  display: flex
+  height: 100%
+  flex-direction: column
+  .disabled-pointer
+    pointer-events: none
+  a:hover
+    text-decoration: none
+    color: $textColor
