@@ -1,9 +1,8 @@
-.aboutUsDiv
+.servicesDiv
   min-height: calc(calc(calc(100vh - 112px) - 20em) - 65px)
   margin-top: 6rem
   margin-left: 7rem
-
-  .aboutUsLeftDiv
+  .servicesLeftDiv
     margin-bottom: 10rem !important
 
   h1
@@ -16,16 +15,16 @@
     letter-spacing: 2px
     text-transform: uppercase
 
-  .aboutUsH1B
+  .servicesH1B
     height: 2px
     margin-left: 0.2rem
     margin-right: 0
     background-color: #E1CC8D
 
-  .aboutUsH1B:last-child
+  .servicesH1B:last-child
     background: linear-gradient(90deg, #E1CC8D 50%, transparent 50%)
 
-  .aboutUsP
+  .servicesP
     font-style: normal
     font-weight: 200
     font-size: 1.625rem
@@ -33,8 +32,27 @@
     letter-spacing: 0.125rem
     margin-top: 1.5em
     margin-bottom: 2em
+    text-indent: 30px
+    ul
+      list-style: none
+      li
+        color: black
+        margin-left: -60px
+        margin-bottom: 0.6rem
+      li:before
+        background-color: #8B0305
+        border-radius: 50%
+        border-width: 3px
+        border-style: double
+        border-color: #E1CC8D
+        content: ""
+        display: inline-block
+        margin-right: 10px
+        margin-bottom: 2px
+        height: 13px
+        width: 13px
 
-  .aboutUsButton
+  .servicesButton
     height: 4.125rem
     font-style: normal
     font-weight: 300
@@ -55,7 +73,7 @@
     a:active,a:hover
       color: white
 
-  .aboutUsButton:active,.aboutUsButton:hover
+  .servicesButton:active,.servicesButton:hover
     color: white !important
     background-color: #E1CC8D !important
     border-bottom: none !important
@@ -63,7 +81,7 @@
     border-top: none !important
     border-left: 5px solid #E3E3E3 !important
 
-  .aboutUsBgLogo
+  .servicesBgLogo
     width: 544px
     height: 363px
     background-position: right

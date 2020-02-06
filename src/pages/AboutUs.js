@@ -15,8 +15,8 @@ class AboutUs extends Component {
                                 <h1>Bizim hikayemiz</h1>
                                 <Col lg={6}>
                                     <Row>
-                                        <Col lg={7} className="aboutUsH1B"/>
-                                        <Col lg={2} className="aboutUsH1B"/>
+                                        <Col lg={8} className="aboutUsH1B"/>
+                                        <Col lg={1} className="aboutUsH1B"/>
                                         <Col lg={1} className="aboutUsH1B"/>
                                         <Col lg={1} className="aboutUsH1B"/>
                                     </Row>
